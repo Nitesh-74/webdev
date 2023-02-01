@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <style>
+      body {
+  background-color: aquamarine;
+      }
+      form {
+              border: 0ch; 
+              border-color: blue;
+              border-width: 10%;
+      }
+    </style>
+</head>
+<body >
+    <header>
+        <nav>
+            <ul>
+                <li > Home</li>
+                  <li>About</li>
+                    <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="Nitesh"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Singh"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+      <p>Choose your favorite Web language:</p>
+
+      <form>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+      </form>
+      <a href="/about.html"><button>
+        Go to about page.
+      </button></a>
+      <a href="/contact.html"><button>
+        Go to Contact page.
+      </button></a>
+</body>
+</html>
